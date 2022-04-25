@@ -1,11 +1,11 @@
-#**Bluesafe**
+# **Bluesafe**
 
 
 Bluesafe is a python script that checks your connected bluetooth devices,
 in case your predefined device gets disconnected your laptop will restart
 to encrypt your disk.
 
-##**Usage**
+## **Usage**
 
 Create a cronjob or a service that runs bluesafe.py everytime your laptop reboots.
 
