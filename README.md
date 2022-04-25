@@ -10,7 +10,7 @@ to encrypt your disk.
 Create a cronjob or a service that runs bluesafe.py everytime your laptop reboots.
 
 Edit the lock_device option at the top of the file with the mac address of your bluetooth
-device, example lock_device = "AA:BB:CC:DD:EE:FF"
+device, example lock_device = "aa:bb:cc:dd:ee:ff" (use lowercase letters)
 
 
 Everytime the script is run it is set as unarmed, after you connect your bluetooth device
