@@ -13,6 +13,6 @@ Edit the lock_device option at the top of the file with the mac address of your 
 device, example lock_device = "AA:BB:CC:DD:EE:FF"
 
 
-everytime the script is run it is set to be unarmed, after you connect your bluetooth the device
+Everytime the script is run it is set as unarmed, after you connect your bluetooth device
 the script gets armed and in case of a disconnection your laptop will reboot securing your data.
 
