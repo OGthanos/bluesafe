@@ -15,7 +15,6 @@ def list_connected_devices():
         con_state = mngd_objs[path].get('org.bluez.Device1', {}).get('Connected', False)
         if con_state:
             addr = mngd_objs[path].get('org.bluez.Device1', {}).get('Address')
-            name = mngd_objs[path].get('org.bluez.Device1', {}).get('Name')
             return addr
 
 if __name__ == '__main__':
